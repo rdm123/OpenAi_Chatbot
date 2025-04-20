@@ -1,5 +1,5 @@
 import openai
-openai.api_key="" #create an API key and use it here
+openai.api_key="" #generate an API key and use it here
 def chat_with_gpt(prompt):
     response=openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
